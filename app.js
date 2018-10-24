@@ -13,7 +13,6 @@ var userSession = require('./routes/session');
 
 var app = express();
 
-
 var databaseUrl = 'mongodb://best-for-you-db-eh:a4YEkY1tE0UeA6jEv2jFVvyA20dGE3AfNp2NNSx0lCgN9vnoypJysWGbFgUuCjNF64EpuSZRVJxwnCYlxfcDPg==@best-for-you-db-eh.documents.azure.com:10255/best-for-you-organics?ssl=true&replicaSet=globaldb';
 
 var mongoose = require('mongoose');
