@@ -5,7 +5,6 @@ import { Col, Grid, Row, Well } from 'react-bootstrap';
 import logo from '../../logo.png';
 import './Plans.css';
 
-
 export default class Plans extends Component {
 
     constructor(props) {
