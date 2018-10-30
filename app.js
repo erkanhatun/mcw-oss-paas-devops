@@ -21,7 +21,7 @@ mongoose.connect(databaseUrl, { useMongoClient: true, promiseLibrary: require('b
   .then(() => console.log('connection succesful'))
   .catch((err) => console.error(err));
 var db = mongoose.connection;
-mongoimport --host best-for-you-db-eh.documents.azure.com:10255 -u best-for-you-db-eh -p a4YEkY1tE0UeA6jEv2jFVvyA20dGE3AfNp2NNSx0lCgN9vnoypJysWGbFgUuCjNF64EpuSZRVJxwnCYlxfcDPg== --db best-for-you-organics --collection users --ssl --sslAllowInvalidCertificates --type json --file ~/MongoExport/users.json
+
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ 'extended': 'false' }));
